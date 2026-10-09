@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>云计算与分布式系统 实验2</title>
+  <style>
+    body {
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #24292f;
+      margin: 0;
+      padding: 40px 16px;
+    }
+    .box {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #d9dee5;
+      border-radius: 6px;
+      padding: 32px 36px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 6px;
+    }
+    .sub {
+      color: #57606a;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 16px;
+      margin: 26px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e6eaef;
+    }
+    p, li {
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    th, td {
+      border: 1px solid #d9dee5;
+      padding: 8px 10px;
+      text-align: left;
+    }
+    th {
+      background: #eef2f7;
+    }
+    footer {
+      margin-top: 28px;
+      font-size: 12px;
+      color: #8a9199;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>云计算与分布式系统 实验2</h1>
+    <div class="sub">云环境下的服务器环境搭建：在 GitHub 上发布一个静态网站</div>
+
+    <h2>实验说明</h2>
+    <p>
+      本页面是《云计算与分布式系统》课程实验2的成果。实验使用 GitHub 的 Pages 服务作为云环境，
+      把网页文件提交到远程仓库后，由 GitHub 的服务器对外提供 HTTP 访问，
+      不需要自己维护服务器和公网 IP。页面能通过下面的网址访问到，即说明实验完成。
+    </p>
+
+    <h2>实验信息</h2>
+    <table>
+      <tr><th>项目</th><th>内容</th></tr>
+      <tr><td>课程名称</td><td>云计算与分布式系统</td></tr>
+      <tr><td>实验名称</td><td>实验2 云环境下的服务器环境搭建</td></tr>
+      <tr><td>云环境</td><td>GitHub Pages（静态网站托管）</td></tr>
+      <tr><td>姓名 / 学号</td><td>（请填写）</td></tr>
+      <tr><td>发布时间</td><td>2026 年 10 月</td></tr>
+    </table>
+
+    <h2>实验内容</h2>
+    <ul>
+      <li>在 GitHub 上创建代码仓库，并把本地的网页文件推送到远程仓库。</li>
+      <li>在仓库的 Settings → Pages 中启用 Pages 服务，选择 main 分支根目录作为发布源。</li>
+      <li>等待构建完成后，用浏览器访问 GitHub 给出的网址，确认页面可以正常打开。</li>
+    </ul>
+
+    <h2>实验体会</h2>
+    <p>
+      实验中最直观的感受是云服务把服务器、域名和部署工具都打包成了现成的服务：
+      只需要提交几个静态文件，剩下的构建、托管和访问都由平台完成，
+      自己不用安装 Web 服务器，也不用考虑公网 IP 和带宽。
+      这说明云平台的价值不只是“把机器放到网上”，更重要的是把运维工作也一起托管了。
+    </p>
+
+    <footer>页面由 HTML + CSS 静态文件构成，托管于 GitHub Pages。</footer>
+  </div>
+</body>
+</html>
